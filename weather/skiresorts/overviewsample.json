@@ -1,0 +1,222 @@
+{
+  "id": "124505",
+  "lastUpdateTime": "2026-01-04T09:44:00Z",
+  "unit": "F",
+  "loc": {
+    "nm": "Whistler Blackcomb",
+    "ct": "Whistler",
+    "st": "BC",
+    "co": "Canada",
+    "cc": "CA",
+    "la": 50.1163,
+    "lo": -122.9574
+  },
+
+  "heroData": {
+    "frsSnw": 7,
+    "bsDpth": 65,
+    "cc": {
+      "temp": 24,
+      "cptn": "Cloudy with scattered flurries",
+      "provid": "OnTheSnow"
+    },
+    "tImg": {
+      "u": "/images/skycodes/13.png"
+    },
+    "hrImg": {
+      "u": "https://images.resort.com/whistler-summit-hero.jpg",
+      "w": 1920,
+      "h": 1080,
+      "ancr": "Middle",
+      "pancr": "Left",
+      "fp": { "x": 0.5, "y": 0.4 },
+      "pfp": { "x": 0.3, "y": 0.5 },
+      "attr": "Whistler Blackcomb Media",
+      "cptn": "Fresh tracks on 7th Heaven"
+    },
+    "lwResHrImg": {
+      "u": "https://images.resort.com/whistler-summit-hero-thumb.jpg",
+      "w": 800,
+      "h": 450
+    },
+    "frcsts": [
+      { "date": 1736035200000, "snfl": 5 },
+      { "date": 1736121600000, "snfl": 24 },
+      { "date": 1736208000000, "snfl": 18 }
+    ]
+  },
+
+  "ovrwData": {
+    "intrDt": {
+      "dsc": "North America's largest ski resort, spanning 8,171 acres across two interconnected mountains.",
+      "web": "https://www.whistlerblackcomb.com",
+      "dscUrl": "https://www.onthesnow.com/british-columbia/whistler-blackcomb/ski-resort",
+      "adr": "4545 Blackcomb Way",
+      "zip": "V8E 0X1",
+      "elvBs": 2140,
+      "elvTp": 7494,
+      "vDrp": 5280
+    },
+    "rnsDt": {
+      "pBR": 18,
+      "pIR": 40,
+      "pAR": 35,
+      "pER": 7
+    },
+    "snwDt": {
+      "stts": "Open",
+      "frsSnw": 7,
+      "bsDpth": 65,
+      "opTrl": 266,
+      "ttTrl": 295,
+      "opLft": 20,
+      "ttLft": 26,
+      "opTrn": 7200,
+      "ttTrn": 8171,
+      "board": "Yes",
+      "tube": "Yes",
+      "xCntry": "Yes"
+    },
+    "trailMapDt": {
+      "hiRsImg": { "u": "https://maps.resort.com/whistler_highres.jpg", "w": 4000, "h": 3000 },
+      "loRsImg": { "u": "https://maps.resort.com/whistler_lowres.jpg" },
+      "prvd": "Resort Maps Inc"
+    }
+  },
+
+  "dly": {
+    "Provider": "Weather.com",
+    "DailyConditions": [
+      {
+        "Date": 1736035200000,
+        "TempHigh": 30,
+        "TempLow": 16,
+        "IconCode": "13",
+        "PrecipChance": 90,
+        "WindSpeed": 22,
+        "WindDirection": "S",
+        "Humidity": 98,
+        "Sunrise": 1736006400000,
+        "Sunset": 1736038800000
+      }
+    ]
+  },
+
+  "hrly": {
+    "Provid": "Weather.com",
+    "Hrly": [
+      {
+        "Tm": 1736035200000,
+        "Cptn": "Heavy Snow",
+        "Temp": 21,
+        "Icn": "13",
+        "PrcpChnc": 95,
+        "wndSpd": 18,
+        "FlsLk": 10
+      }
+    ]
+  },
+
+  "nwsDlsData": {
+    "nwsL": [
+      {
+        "hdLin": "The Biggest Ski Resorts in North America",
+        "bckLnk": "https://www.onthesnow.com/news/biggest-resorts",
+        "bdy": "See how Whistler stacks up against the competition this season.",
+        "lwRsImg": { "u": "https://img.onthesnow.com/news/thumb1.jpg" }
+      },
+      {
+        "hdLin": "Epic Pass Spring Sale",
+        "bckLnk": "https://www.epicpass.com",
+        "bdy": "Lock in your turns for next year at the lowest price.",
+        "lwRsImg": { "u": "https://img.onthesnow.com/news/epic_deal.jpg" }
+      }
+    ]
+  },
+
+  "rvwData": {
+    "avgRat": 4.5,
+    "ttlRvw": 198,
+    "ffRat": 4.7,
+    "r1": 5,
+    "r2": 8,
+    "r3": 15,
+    "r4": 40,
+    "r5": 130,
+    "rvwsLink": "https://www.snow-forecast.com/resorts/Whistler-Blackcomb/reviews",
+    "reviews": [
+      {
+        "id": "rev_001",
+        "title": "Unmatched Terrain",
+        "date": "2026-01-02",
+        "rating": 5,
+        "text": "The sheer size of this place is incredible. Even with crowds, you can find quiet stashes.",
+        "url": "https://www.snow-forecast.com/reviews/1"
+      }
+    ]
+  },
+
+  "camPnrmData": {
+    "cam": {
+      "hiRsImgs": [
+        { 
+          "cptn": "Whistler Peak Cam", 
+          "u": "https://webcams.whistler.com/peak_live.jpg", 
+          "dtTim": "2026-01-04T09:30:00Z",
+          "w": 1280, 
+          "h": 720 
+        },
+        { 
+          "cptn": "Roundhouse Lodge", 
+          "u": "https://webcams.whistler.com/roundhouse.jpg", 
+          "dtTim": "2026-01-04T09:32:00Z",
+          "w": 1280, 
+          "h": 720 
+        }
+      ]
+    },
+    "pnrmData": {
+      "panos": [
+        { 
+          "id": "pano_7th_heaven", 
+          "title": "7th Heaven 360", 
+          "thumb": "https://panos.resort.com/7th_thumb.jpg" 
+        }
+      ]
+    }
+  },
+
+  "attr": {
+    "text": "OnTheSnow & Weather.com",
+    "link": "https://www.onthesnow.com"
+  },
+
+  "nearbyResorts": {
+    "resorts": [
+      {
+        "id": "2244",
+        "loc": {
+          "nm": "Grouse Mountain",
+          "st": "BC",
+          "co": "Canada",
+          "la": 49.37,
+          "lo": -123.08
+        },
+        "img": { "u": "https://img.resort.com/grouse_thumb.jpg" },
+        "ns": 4
+      },
+      {
+        "id": "3355",
+        "loc": {
+          "nm": "Mount Seymour",
+          "st": "BC",
+          "co": "Canada",
+          "la": 49.36,
+          "lo": -122.94
+        },
+        "img": { "u": "https://img.resort.com/seymour_thumb.jpg" },
+        "ns": 2
+      }
+    ]
+  }
+}
