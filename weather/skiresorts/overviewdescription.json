@@ -1,0 +1,198 @@
+{
+  "id": "Unique identifier for the resort",
+  "lastUpdateTime": "Timestamp of the last data refresh",
+  "unit": "Measurement unit (e.g., F or C)",
+  "loc": {
+    "nm": "Name of the ski resort",
+    "ct": "City where the resort is located",
+    "st": "State or Province code",
+    "co": "Country name",
+    "cc": "ISO Country code",
+    "la": "Latitude coordinate",
+    "lo": "Longitude coordinate"
+  },
+
+  "heroData": {
+    "frsSnw": "Amount of fresh snowfall",
+    "bsDpth": "Current base snow depth",
+    "cc": {
+      "temp": "Current outdoor temperature",
+      "cptn": "Description of current weather conditions",
+      "provid": "Data provider name"
+    },
+    "tImg": {
+      "u": "URL path to the skycode or weather icon"
+    },
+    "hrImg": {
+      "u": "URL to the high-resolution hero image",
+      "w": "Width of the hero image",
+      "h": "Height of the hero image",
+      "ancr": "Landscape alignment anchor",
+      "pancr": "Portrait alignment anchor",
+      "fp": { "x": "Horizontal focal point", "y": "Vertical focal point" },
+      "pfp": { "x": "Portrait horizontal focal point", "y": "Portrait vertical focal point" },
+      "attr": "Image credit or attribution text",
+      "cptn": "Caption describing the hero image"
+    },
+    "lwResHrImg": {
+      "u": "URL to the low-resolution hero image",
+      "w": "Width of the low-res image",
+      "h": "Height of the low-res image"
+    },
+    "frcsts": [
+      {
+        "date": "Unix timestamp of the forecast day",
+        "snfl": "Predicted snowfall amount"
+      }
+    ]
+  },
+
+  "ovrwData": {
+    "intrDt": {
+      "dsc": "Long-form description of the resort",
+      "web": "Official website of the resort",
+      "dscUrl": "Deep link to detailed resort information",
+      "adr": "Street address",
+      "zip": "Postal or Zip code",
+      "elvBs": "Elevation at the base of the mountain",
+      "elvTp": "Elevation at the summit",
+      "vDrp": "Total vertical drop"
+    },
+    "rnsDt": {
+      "pBR": "Percentage of beginner runs",
+      "pIR": "Percentage of intermediate runs",
+      "pAR": "Percentage of advanced runs",
+      "pER": "Percentage of expert runs"
+    },
+    "snwDt": {
+      "stts": "Operational status (e.g., Open/Closed)",
+      "frsSnw": "Amount of fresh snow",
+      "bsDpth": "Current base depth",
+      "opTrl": "Number of currently open trails",
+      "ttTrl": "Total number of trails",
+      "opLft": "Number of currently open lifts",
+      "ttLft": "Total number of lifts",
+      "opTrn": "Open terrain acreage",
+      "ttTrn": "Total terrain acreage",
+      "board": "Indicator if snowboarding is allowed",
+      "tube": "Indicator if tubing is available",
+      "xCntry": "Indicator if cross-country skiing is available"
+    },
+    "trailMapDt": {
+      "hiRsImg": { "u": "URL to high-resolution trail map", "w": "Map width", "h": "Map height" },
+      "loRsImg": { "u": "URL to low-resolution trail map" },
+      "prvd": "Provider of the trail map data"
+    }
+  },
+
+  "dly": {
+    "Provider": "Weather data provider name",
+    "DailyConditions": [
+      {
+        "Date": "Timestamp for the forecast day",
+        "TempHigh": "Maximum daily temperature",
+        "TempLow": "Minimum daily temperature",
+        "IconCode": "Weather icon identifier",
+        "PrecipChance": "Chance of precipitation percentage",
+        "WindSpeed": "Average wind speed",
+        "WindDirection": "Cardinal wind direction",
+        "Humidity": "Relative humidity percentage",
+        "Sunrise": "Timestamp of sunrise",
+        "Sunset": "Timestamp of sunset"
+      }
+    ]
+  },
+
+  "hrly": {
+    "Provid": "Hourly weather data provider",
+    "Hrly": [
+      {
+        "Tm": "Timestamp for the specific hour",
+        "Cptn": "Weather condition description",
+        "Temp": "Hourly temperature",
+        "Icn": "Weather icon code",
+        "PrcpChnc": "Precipitation probability",
+        "wndSpd": "Wind speed",
+        "FlsLk": "Apparent 'feels like' temperature"
+      }
+    ]
+  },
+
+  "nwsDlsData": {
+    "nwsL": [
+      {
+        "hdLin": "Headline of the news or deal",
+        "bckLnk": "External link to the full story or offer",
+        "bdy": "Brief summary or body of the news item",
+        "lwRsImg": { "u": "URL to a thumbnail image for the item" }
+      }
+    ]
+  },
+
+  "rvwData": {
+    "avgRat": "Aggregate average user rating",
+    "ttlRvw": "Total number of user reviews",
+    "ffRat": "Family-friendly specific rating",
+    "r1": "Count of 1-star reviews",
+    "r2": "Count of 2-star reviews",
+    "r3": "Count of 3-star reviews",
+    "r4": "Count of 4-star reviews",
+    "r5": "Count of 5-star reviews",
+    "rvwsLink": "Link to the external review platform",
+    "reviews": [
+      {
+        "id": "Unique review identifier",
+        "title": "Review title",
+        "date": "Date the review was posted",
+        "rating": "Individual user rating",
+        "text": "Content of the user review",
+        "url": "Link to the specific review"
+      }
+    ]
+  },
+
+  "camPnrmData": {
+    "cam": {
+      "hiRsImgs": [
+        { 
+          "cptn": "Description of the webcam location", 
+          "u": "URL to the current webcam image", 
+          "dtTim": "Timestamp of the webcam capture",
+          "w": "Image width", 
+          "h": "Image height" 
+        }
+      ]
+    },
+    "pnrmData": {
+      "panos": [
+        { 
+          "id": "Unique identifier for the 360 panorama", 
+          "title": "Title of the panoramic view", 
+          "thumb": "URL to the panorama thumbnail" 
+        }
+      ]
+    }
+  },
+
+  "attr": {
+    "text": "Attribution text for the data source",
+    "link": "URL to the data provider's website"
+  },
+
+  "nearbyResorts": {
+    "resorts": [
+      {
+        "id": "Identifier for the nearby resort",
+        "loc": {
+          "nm": "Name of the neighboring resort",
+          "st": "State/Province",
+          "co": "Country",
+          "la": "Latitude",
+          "lo": "Longitude"
+        },
+        "img": { "u": "URL to a thumbnail of the nearby resort" },
+        "ns": "Recent new snow amount at this resort"
+      }
+    ]
+  }
+}
