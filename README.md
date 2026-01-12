@@ -1,2 +1,1 @@
-# win8.1-json
-Temporary repository for transferring JSON/XML schemas and samples between devices.
+Windows and Windows Phone 8.1 app JSON and XML schemas
